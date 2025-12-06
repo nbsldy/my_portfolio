@@ -611,7 +611,7 @@ a:hover {
 
   .profile-image {
     width: 150px;
-    height: 150px;
+    height: 250px;
   }
 
   .about-grid {
@@ -690,3 +690,4 @@ a:hover {
     gap: 1.5rem;
   }
 }
+
