@@ -1,11 +1,10 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alday - Portfolio</title>
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="/my_portfolio/myapp/static/css/styles.css">
 </head>
 <body>
     <!-- Sidebar Navigation -->
@@ -64,7 +63,7 @@
         <section id="home" class="section hero">
             <div class="section-content">
                 <div class="profile-wrapper">
-                    <img src="{% static 'images/profile.jpg' %}" alt="Profile Picture" class="profile-image">
+                    <img src="/my_portfolio/myapp/static/images/profile.jpg" alt="Profile Picture" class="profile-image">
                 </div>
                 <h2>Hi, I'm Nheil!</h2>
                 <p class="intro-text">I’m an aspiring developer who’s learning the basics of programming and building small projects to improve my skills. I enjoy solving problems through code and I’m working toward becoming confident in software development.</p>
@@ -208,6 +207,7 @@
         </section>
     </main>
 
-    <script src="{% static 'javascript/scripts.js' %}"></script>
+    <script src="/my_portfolio/myapp/static/javascript/scripts.js"></script>
 </body>
 </html>
+
