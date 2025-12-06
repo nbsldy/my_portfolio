@@ -241,7 +241,7 @@ a:hover {
 
 .profile-image {
   width: 200px;
-  height: 200px;
+  height: 220px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--accent-color);
@@ -690,4 +690,5 @@ a:hover {
     gap: 1.5rem;
   }
 }
+
 
